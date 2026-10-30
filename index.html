@@ -390,15 +390,15 @@ body {
 
         <section class="welcome" id="welcome">
             <div class="welcome-icon">✨</div>
-            <h2>Hello PTHON</h2>
+            <h2>HELLO PTHON</h2>
             <p>
                 I am your Smart Chatbot Assistant.<br>
                 Ask me a question in English or Hindi!
             </p>
 
             <div class="suggestions">
-                <button class="suggestion" data-message="Hello">
-                    👋 Say Hello
+                <button class="suggestion" data-message="HELLO">
+                    👋 Say HELLO
                 </button>
                 <button class="suggestion" data-message="What can you do?">
                     💡 What can you do?
@@ -531,9 +531,9 @@ function getBotReply(message) {
     const msg = message.toLowerCase().trim();
 
     // Greetings
-    if (/\b(hi|hello|hey|hii|good morning|good evening)\b/.test(msg)
+    if (/\b(hi|HELLO|hey|hii|good morning|good evening)\b/.test(msg)
         || /नमस्ते|नमस्कार|हेलो|हाय/.test(msg)) {
-        return "Hello! 👋 Welcome to Sandipni School chhatwai Chatbot AI. How can I help you today?";
+        return "HELLO! 👋 Welcome to Sandipni School chhatwai Chatbot AI. How can I help you today?";
     }
 
     // Identity
@@ -568,7 +568,7 @@ function getBotReply(message) {
 
     // HTML
     if (msg.includes("html")) {
-        return "🌐 HTML is the standard markup language used to structure web pages.\n\nBasic HTML example:\n\n<!DOCTYPE html>\n<html>\n<body>\n  <h1>Hello World!</h1>\n  <p>My first webpage.</p>\n</body>\n</html>\n\nSave this as index.html and open it in your browser.";
+        return "🌐 HTML is the standard markup language used to structure web pages.\n\nBasic HTML example:\n\n<!DOCTYPE html>\n<html>\n<body>\n  <h1>HELLO World!</h1>\n  <p>My first webpage.</p>\n</body>\n</html>\n\nSave this as index.html and open it in your browser.";
     }
 
     // CSS
@@ -578,7 +578,7 @@ function getBotReply(message) {
 
     // JavaScript
     if (msg.includes("javascript") || msg.includes(" js ")) {
-        return "⚡ JavaScript adds interaction to websites. It can handle buttons, forms, chat messages and more.\n\nExample:\n\nalert('Hello World!');\n\nThis chatbot also uses JavaScript to process your messages.";
+        return "⚡ JavaScript adds interaction to websites. It can handle buttons, forms, chat messages and more.\n\nExample:\n\nalert('HELLO World!');\n\nThis chatbot also uses JavaScript to process your messages.";
     }
 
     // Project ideas
